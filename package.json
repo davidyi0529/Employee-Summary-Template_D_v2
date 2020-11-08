@@ -1,0 +1,29 @@
+{
+  "name": "Employee-Summary-Template_D_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidyi0529/Employee-Summary-Template_D_v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidyi0529/Employee-Summary-Template_D_v2/issues"
+  },
+  "homepage": "https://github.com/davidyi0529/Employee-Summary-Template_D_v2#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest": "^26.6.3"
+  }
+}
