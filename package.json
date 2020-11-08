@@ -1,5 +1,5 @@
 {
-  "name": "Employee-Summary-Template_D_v2",
+  "name": "Project-Team-Summary_D",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -8,20 +8,19 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest --verbose test/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidyi0529/Employee-Summary-Template_D_v2.git"
+    "url": "git+https://github.com/davidyi0529/Project-Team-Summary_D.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davidyi0529/Employee-Summary-Template_D_v2/issues"
+    "url": "https://github.com/davidyi0529/Project-Team-Summary_D/issues"
   },
-  "homepage": "https://github.com/davidyi0529/Employee-Summary-Template_D_v2#readme",
+  "homepage": "https://github.com/davidyi0529/Project-Team-Summary_D#readme",
   "dependencies": {
     "inquirer": "^7.3.3",
     "jest": "^26.6.3"

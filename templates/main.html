@@ -5,28 +5,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>My Team</title>
+    <title>Project Team</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
 
-<body>
+<body class="bg-info">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading">
-                <h1 class="text-center">My Team</h1>
+            <div class="col-12 jumbotron mb-3 team-heading bg-dark text-white">
+                <h1 class="text-center">Project Team</h1>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="team-area col-12 d-flex justify-content-center">
+            <div class="team-area d-flex justify-content-center flex-wrap">
                 {{ team }}
             </div>
         </div>
     </div>
+
+    <nav class="navbar fixed-bottom navbar-dark bg-dark justify-content-center">
+        <a class="navbar-brand" href="https://davidyi0529.github.io/Updated-Portfolio_D/">
+            <img src="https://github.com/davidyi0529/Portfolio_D/blob/master/assets/images/logo.png?raw=true" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Project-Team_D
+        </a>
+    </nav>
 </body>
 
 </html>
